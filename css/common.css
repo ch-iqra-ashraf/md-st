@@ -14,7 +14,7 @@ hr {
 
 
 .nav-logo {
-    height: 70px;
+    height: 90px;
     width: auto;
     padding-top: 23px;
     display: flex;
@@ -30,6 +30,13 @@ hr {
     align-items: center;
     justify-content: center;
     gap: 75px;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
 }
 
 .nav-content a {
@@ -50,8 +57,9 @@ hr {
     background-size: contain;
     background-repeat: no-repeat;
     font-size: 1.35rem;
-    height: 50px;
+    height: 70px;
     width: 100px;
+
 }
 
 a {
