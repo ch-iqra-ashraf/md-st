@@ -52,23 +52,26 @@ a {
     color: black;
     font-weight: 30;
 }
-
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .tv-img {
     background-image: url(../images/tv.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 314px;
-    width: 550px;
-    padding: 12px;
-
+    height: 420px;
+    width: 720px;
+    margin-right: 42px;
 }
 
 .mainstream {
     background-image: url(../images/mainstream.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 346px;
-    width: 250px;
+    height: 501px;
+    width: 387px;
     padding: 12px;
 }
 
