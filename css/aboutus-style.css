@@ -39,6 +39,19 @@ hr {
     gap: 75px;
 }
 
+.nav-content a {
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.nav-content a:hover {
+    font-size: 18px;
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
 .logo {
     background-image: url(../images/logo.avif);
     background-size: contain;
