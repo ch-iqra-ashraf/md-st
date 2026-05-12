@@ -118,10 +118,10 @@ button {
 
 .icons {
     display: flex;
+   
     align-items: center;
     gap: 20px;
     font-size: 1.4rem;
-    padding-left: 600px;
 }
 
 footer {
